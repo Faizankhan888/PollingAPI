@@ -1,5 +1,5 @@
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://localhost:27017/Polling_System');
+mongoose.connect('mongodb+srv://faizankhan9891:Em0mu01ejJlZ20wm@cluster0.fljrhv8.mongodb.net/?retryWrites=true&w=majority');
 
 // Code for using the cloud mongodb atlas 
 const connectParams={
